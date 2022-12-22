@@ -1,7 +1,7 @@
 <h2 align="center">
 <img width="50" src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter Logo">
 <br>
-twoauth
+tw-oauth
 </h2>
 
 **A library to quickly authenticate a user against the Twitter API using PIN based OAuth.**
