@@ -17,7 +17,29 @@ yarn add twoauth
 ## Usage Example
 
 ```ts
-// TODO
+import {TwoAuth} from 'twoauth';
+import inquirer from "inquirer";
+import open from "open";
+
+const tw = new TwoAuth("API KEY", "API SECRET");
+
+const {token, tokenSecret, authorizationUrl} = await tw.getAuthorizationUrl();
+console.log("Please visit the following URL to authorize the app.");
+console.log(authorizationUrl);
+open(authorizationUrl);
+
+const {pin} = await inquirer.prompt([{
+  type: "number",
+  name: "pin",
+  message: "Paste the PIN here:",
+  filter: (value) => (value >= 0 && value <= 9_999_999) ? value : Promise.reject(`Invalid PIN: ${value}`)
+}]);
+
+const {accessToken, accessTokenSecret} = await tw.getAccessToken(pin, token, tokenSecret);
+console.log("Access Token:", accessToken);
+console.log("Access Token Secret:", accessTokenSecret);
+
+// Use the access token and access token secret to make API calls to Twitter API.
 ```
 
 ## License
