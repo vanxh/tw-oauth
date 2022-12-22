@@ -1,7 +1,7 @@
 {
   "name": "twoauth",
   "version": "1.0.0",
-  "description": "A library to quickly authenticate a user against the Twitter API.",
+  "description": "A library to quickly authenticate a user against the Twitter API using PIN based OAuth.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -30,17 +30,22 @@
     "twitter oauth"
   ],
   "devDependencies": {
-    "@types/jest": "^29.0.3",
+    "@types/jest": "^29.2.4",
     "@types/node": "^18.0.0",
+    "@types/oauth": "^0.9.1",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
+    "husky": "^8.0.0",
     "jest": "^29.1.1",
-    "typescript": "^4.9.4",
-    "husky": "^8.0.0"
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.7.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "oauth": "^0.10.0"
+  },
   "optionalDependencies": {}
 }

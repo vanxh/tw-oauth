@@ -4,7 +4,7 @@
 twoauth
 </h2>
 
-**A library to quickly authenticate a user against the Twitter API.**
+**A library to quickly authenticate a user against the Twitter API using PIN based OAuth.**
 
 ## Installation
 
@@ -20,8 +20,8 @@ yarn add twoauth
 // TODO
 ```
 
-
 ## License
+
 MIT License
 
 Copyright (c) 2022 Vanxh

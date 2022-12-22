@@ -11,3 +11,6 @@ dist/
 .vscode/
 .nova/
 .idea/
+
+# Environment variables
+.env
