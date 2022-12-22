@@ -1,6 +1,6 @@
 {
   "name": "@vanxh/tw-oauth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to quickly authenticate a user against the Twitter API using PIN based OAuth.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,14 +16,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vanxh/twoauth.git"
+    "url": "git+https://github.com/vanxh/tw-oauth.git"
   },
   "author": "vanxh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vanxh/twoauth/issues"
+    "url": "https://github.com/vanxh/tw-oauth/issues"
   },
-  "homepage": "https://github.com/vanxh/twoauth#readme",
+  "homepage": "https://github.com/vanxh/tw-oauth#readme",
   "keywords": [
     "twitter",
     "oauth",
