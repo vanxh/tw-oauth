@@ -9,9 +9,9 @@ tw-oauth
 ## Installation
 
 ```bash
-npm install twoauth
+npm install @vanxh/tw-oauth
 # or
-yarn add twoauth
+yarn add @vanxh/tw-oauth
 ```
 
 ## Usage Example

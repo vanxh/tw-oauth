@@ -1,6 +1,6 @@
 {
   "name": "@vanxh/tw-oauth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library to quickly authenticate a user against the Twitter API using PIN based OAuth.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
